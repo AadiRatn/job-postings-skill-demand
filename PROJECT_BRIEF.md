@@ -18,7 +18,7 @@ Snowflake is manual; the Databricks pipeline is the scheduled component.
 
 **Feasibility evidence:** Two full local Spark runs pass all 31 checks, with an
 independent reconciliation and identical export fingerprints. Databricks also
-passed interactively and in an actual scheduled run (2m 42s). The actual cloud
+passed interactively and in an actual scheduled run (2m 43s). The actual cloud
 exports were loaded into Snowflake, repeated loads added zero rows, and all 14
 full-result checks passed. The topic is feasible within this stated scope.
 See `verification/FINAL_VERIFICATION.md` for the execution evidence.

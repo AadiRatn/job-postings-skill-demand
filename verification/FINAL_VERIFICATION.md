@@ -11,7 +11,7 @@ Databricks and Snowflake, not only simulated locally.
 | Local Spark | Two complete runs; all 31 checks passed; identical exports |
 | Independent oracle | Every posting-skill row, monthly count, pair count and rejection count agrees |
 | Databricks pipeline | All 26 expectations passed; Bronze, Silver and Gold materialized as Delta tables |
-| Databricks scheduler | Run 365017355708433 launched "By scheduler" and succeeded in 2m 42s |
+| Databricks scheduler | Run 365017355708433 launched "By scheduler" and succeeded in 2m 43s |
 | Cloud CSV export | 360 skill-month rows, 6,660 pair-month rows, 227,624 posting-skill rows |
 | Cloud/local reconciliation | Every exported row agrees; numeric tolerance 1e-12 for floating measures |
 | First Snowflake COPY | All three files LOADED, the expected row counts, zero errors |
